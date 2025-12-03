@@ -2,8 +2,8 @@
   "name": "@repo/db",
   "version": "1.0.0",
   "description": "",
-  "main": "./dist/client.js",
-  "types": "./dist/client.d.ts",
+  "main": "./dist/src/client.js",
+  "types": "./dist/src/client.d.ts",
   "scripts": {
     "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -28,8 +28,8 @@
   },
   "exports": {
     ".": {
-      "types": "./dist/client.d.ts",
-      "default": "./dist/client.js"
+      "types": "./dist/src/client.d.ts",
+      "default": "./dist/src/client.js"
     }
   }
 }

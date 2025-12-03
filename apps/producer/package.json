@@ -1,0 +1,25 @@
+{
+  "name": "producer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc -b",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@repo/db": "*",
+    "@repo/redis": "*",
+    "@types/express": "^5.0.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@repo/typescript-config": "*",
+    "typescript": "latest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
