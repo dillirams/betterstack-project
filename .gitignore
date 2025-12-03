@@ -5,6 +5,11 @@ node_modules
 .pnp
 .pnp.js
 .env
+.env.*
+apps/*/.env
+apps/*/.env.*
+packages/*/.env
+packages/*/.env.*
 
 # testing
 coverage
